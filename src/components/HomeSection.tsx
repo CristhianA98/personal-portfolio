@@ -37,9 +37,7 @@ export const HomeSection = () => {
         </div>
       </div>
       {/* Second Column */}
-      <div className="flex flex-col justify-center items-center bg-transparent">
-        hola
-      </div>
+      <div className="flex flex-col justify-center items-center bg-transparent"></div>
     </div>
   );
 };
