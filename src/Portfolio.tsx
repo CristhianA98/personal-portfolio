@@ -1,5 +1,6 @@
 import { HomeSection } from "./components/HomeSection";
 import Navbar from "./components/Navbar";
+import iconWhite from "./assets/iconWhite.png";
 
 export const Portfolio = () => {
   return (
@@ -34,6 +35,8 @@ export const Portfolio = () => {
       <h1 className="text-main">HOLAAAAAAAA MI AMOOOOOOR TE PINCHIS AMOOOOOOOOOOOOOO CON MUCHAS OOOOOOOOOOOOOOOOOOOOOOOO</h1>
       <h1 className="text-main">HOLAAAAAAAA MI AMOOOOOOR TE PINCHIS AMOOOOOOOOOOOOOO CON MUCHAS OOOOOOOOOOOOOOOOOOOOOOOO</h1>
       <h1 className="text-main">HOLAAAAAAAA MI AMOOOOOOR TE PINCHIS AMOOOOOOOOOOOOOO CON MUCHAS OOOOOOOOOOOOOOOOOOOOOOOO</h1>
+      <img id="mainIcon" src={iconWhite} className="h-6 mr-3 sm:h-12" alt="Portfolio" />
+
     </>
   );
 };

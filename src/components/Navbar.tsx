@@ -1,5 +1,6 @@
 import mainIcon from "../assets/icono.png";
 
+
 const Navbar = () => {
   return (
     <nav id="navbar" className="fixed top-0 left-0 right-0 px-2 py-0 sm:px-4 rounded dark:bg-gray-900">
