@@ -3,8 +3,8 @@ import mainIcon from "../assets/icono.png";
 
 const Navbar = () => {
   return (
-    <nav id="navbar" className="fixed top-0 left-0 right-0 px-2 py-0 sm:px-4 rounded dark:bg-gray-900">
-      <div className="flex flex-wrap px-10 py-3 bg-slate-white items-center justify-between mx-auto">
+    <nav id="navbar" className="fixed top-0 left-0 right-0 py-0 sm:px-4 rounded dark:bg-gray-900">
+      <div className="flex flex-wrap px-0 py-3 bg-slate-white items-center justify-between mx-auto">
         <a className="flex items-center" href="#">
           <img id="mainIcon" src={mainIcon} className="h-6 mr-3 sm:h-12" alt="Portfolio" />
           <span  className="text-custom-change self-center text-3xl text-main font-semibold whitespace-nowrap dark:text-white">
@@ -160,11 +160,11 @@ const Navbar = () => {
           className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
           id="mobile-menu-language-select"
         >
-          <ul className="flex flex-col p-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <ul className="flex flex-col p-4 border border-gray-100 rounded-lg bg-background-main md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
             <li>
               <a
                 href="#"
-                className="text-custom-change block text-lg py-2 pl-3 pr-4 text-main bg-second-700 rounded md:hover:bg-transparent md:text-second md:p-0 dark:text-white"
+                className="block text-lg py-2 pl-3 pr-4 text-white bg-second-700 rounded md:hover:bg-transparent md:text-second md:p-0 dark:text-white"
                 aria-current="page"
               >
                 Home

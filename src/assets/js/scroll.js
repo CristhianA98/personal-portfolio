@@ -1,5 +1,7 @@
 
 addEventListener("load", () => {
+    const iconWhiteUrl = new URL('/src/assets/iconWhite.png', import.meta.url).href;
+    const iconUrl = new URL('/src/assets/icono.png', import.meta.url).href;
     /* Scroll navbar */
     addEventListener("scroll", () => {
         const scroll = scrollY;
@@ -14,7 +16,7 @@ addEventListener("load", () => {
             navbar.classList.add("duration-300")
 
             /* Change icon */
-            mainIcon.src = "/src/assets/iconWhite.png"
+            mainIcon.src = iconWhiteUrl
 
             /* Text Change */
             textColorChange.forEach(text => {
@@ -26,7 +28,7 @@ addEventListener("load", () => {
             navbar.classList.remove("bg-main")
 
             /* Change icon */
-            mainIcon.src = "/src/assets/icono.png"
+            mainIcon.src = iconUrl;
 
             /* Text Change */
             textColorChange.forEach(text => {
